@@ -28,8 +28,7 @@ body {
 }
 
 #wrapper .title{
-  font-size: 2.5em;
-  letter-spacing: 2px;
+  letter-spacing: 1.2px;
 }
 
 header {
@@ -43,9 +42,8 @@ header {
   justify-content: space-between;
   margin: 2em 1.5em 0 0;
   list-style: none;
-}:hover{
-  color: yellow;
-}
+} 
+
 
 
 #section{
@@ -56,6 +54,10 @@ header {
   grid-column-gap:  1em;
   color: white; 
   background:#333;
+}
+
+#section .section-box:hover{
+  color: red;
 }
 
 #section-b{

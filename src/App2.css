@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    display:grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    color:white;
+}
+
+header .title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 2em;
+    letter-spacing: 0.5em;
+}
+
+header .content ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 2em;
+    list-style: none;
+}
+
+.content li:hover{
+    color:yellow;
+}
+
+#section-a {
+    height:70%
+}
+
+#section-a .bg{
+    background-image:url(https://images.pexels.com/photos/270366/pexels-photo-270366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 70%;
+    position: absolute;
+    z-index:0;
+    opacity: 1;
+    filter:brightness(30%);
+}
+
+#section-a .over-content{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    height: 64vh;
+    position:relative;
+    color:white;
+}
+
+#section-a .over-content h1{
+    font-size: 2.6em;
+    letter-spacing: 2px;
+}
+
+#section-a .over-content p{
+   font-size:1.5em;
+   font-weight: lighter;
+}
+
+.over-content .btn{
+    border: 1px solid black;
+    background-color: #366dee;
+    font-size: 1.1em;
+    margin: 1em 0em;
+    padding: 0.5em 1.5em;
+    border-radius: 15px;
+}
+
+.over-content .btn:hover{
+    background-color: #496cbe;
+}
+
+#section-b {
+    
+    height:30%;
+    
+}
+
+#section-b .content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color:#333;
+}
