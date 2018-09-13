@@ -1,9 +1,8 @@
 import React from 'react';
-import "App.css";
-
+ 
 const Footer = () => (
-    <div className="Footers">
-
+    <div>
+        <span titile={title} content={content}></span>
     </div>
 )
 
