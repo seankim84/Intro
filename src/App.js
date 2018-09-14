@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import "App2.css";
+import React, {Component} from 'react';
+import "App3.css";
+
 
 class App extends Component {
   render() {
@@ -7,7 +8,7 @@ class App extends Component {
       <body>
         <header>
           <div className="title">Seanstagram</div>
-          <div className="content">
+          <div className="navigation">
             <ul>
               <li>AboutMe</li>
               <li>Resume</li>
@@ -17,24 +18,22 @@ class App extends Component {
           </div>
         </header>
 
-        <div id="section-a">
-          <div className="bg"></div>
-          <div className="over-content">
-            <h1>Welcome to Seanstagram. Learning ONE NEW THING Everyday</h1>
-            <p>Let's learn about each other.</p>
-            <div className="btn">Look at about ME</div>
-          </div>
+        <div id="section">
+          <div className="bg"></div>   
+          <section>sean!!</section>       
         </div>
-        <div id="section-b">
-          <div className="content">
-            <div className="box"></div>
-            <div classname="box"></div>
-            <div classname="box"></div>
-            <div classname="box"></div>
+
+        <footer>
+          <div className="footer-navigation">
+            <div className=""></div>
+            <div className=""></div>
+            <div className=""></div>
+            <div className=""></div>
           </div>
-        </div>
-      </body>
-    )
+          <div className="footer-term"></div>
+        </footer>
+      </body>  
+    );
   }
 }
 

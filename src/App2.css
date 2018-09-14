@@ -13,9 +13,14 @@ header {
 
 header .title {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.6em;
     margin-left: 2em;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
+}
+
+header .title:hover {
+    opacity:0.6;
+    cursor: pointer;
 }
 
 header .content ul{
@@ -27,7 +32,8 @@ header .content ul{
 }
 
 .content li:hover{
-    color:yellow;
+    opacity: 0.6;
+    cursor: pointer;
 }
 
 #section-a {
@@ -79,12 +85,11 @@ header .content ul{
 
 .over-content .btn:hover{
     background-color: #496cbe;
+    cursor: pointer;
 }
 
 #section-b {
-    
-    height:30%;
-    
+    position: relative;;
 }
 
 #section-b .content {
