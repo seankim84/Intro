@@ -1,39 +1,21 @@
-import React, {Component} from 'react';
-import "App3.css";
-
+import React, { Component } from 'react';
 
 class App extends Component {
   render() {
     return (
       <body>
-        <header>
-          <div className="title">Seanstagram</div>
-          <div className="navigation">
-            <ul>
-              <li>AboutMe</li>
-              <li>Resume</li>
-              <li>Education</li>
-              <li>Contact</li>
-            </ul>
-          </div>
-        </header>
-
-        <div id="section">
-          <div className="bg"></div>   
-          <section>sean!!</section>       
+        <div id="header">
+          <div className="title">SeanStagram</div>
+          <div className="navigation"></div>
         </div>
 
-        <footer>
-          <div className="footer-navigation">
-            <div className=""></div>
-            <div className=""></div>
-            <div className=""></div>
-            <div className=""></div>
-          </div>
-          <div className="footer-term"></div>
-        </footer>
-      </body>  
-    );
+        <div id="section">
+          <div className="bg"></div>
+          <div className="section"></div>
+          <footer></footer>
+        </div> 
+      </body>
+    )
   }
 }
 

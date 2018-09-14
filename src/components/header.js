@@ -1,23 +1,44 @@
-import React from 'react';
+import React, {Component} from 'react';
+import "App3.css";
 
-const Header = () => (
-    <header id="showcase" className="grid">
-        <div className="bg-image" 
-         style={{ 
-            backgroundImage: 'url(https://images.pexels.com/photos/7369/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=350)',
-            opacity:0.3
-          }}>
-        </div>
-        <div className="content-wrap">
-          <h1>Welcome to Sean's PortFolio</h1>
-          
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error earum soluta voluptatum nisi laboriosam eos saepe asperiores dolorum.</p>
-          
-          <a className="btn" href="#section-b">Read More</a>
+
+class App extends Component {
+  render() {
+    return (
+      <body>
+        <header>
+          <div className="title">Seanstagram</div>
+          <div className="navigation">
+            <ul>
+              <li>AboutMe</li>
+              <li>Resume</li>
+              <li>Education</li>
+              <li>Contact</li>
+            </ul>
           </div>
-        
         </header>
-)
 
-export default Header;
+        <div id="section">
+          <div className="bg"></div>   
+          <div className="section-content">
+            <div><h1>Hellow Wecome to the Seanstagram</h1></div>
+            <div><p>Learning ONE NEW Things Everyday </p></div>
+            <div className="btn">Knowing Each Other</div>
+          </div>    
+        </div>
 
+        <footer>
+          <div className="footer-navigation">
+            <div className="box">@Copyright</div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+          </div>
+          <div className="footer-term"></div>
+        </footer>
+      </body>  
+    );
+  }
+}
+
+export default App;
