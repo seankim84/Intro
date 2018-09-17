@@ -7,6 +7,7 @@ class App extends Component {
     return(
       <body>
       <div class="wrapper">
+
         <nav class="main-nav">
           <ul>
             <li>
@@ -76,32 +77,20 @@ class App extends Component {
 
         <section className="portfolio">
           <img src="https:/source.unsplash.com/random/200x200" />
-        </section>
-        <section className="portfolio">
           <img src="https:/source.unsplash.com/random/201x200" />
-        </section>
-        <section className="portfolio">
           <img src="https:/source.unsplash.com/random/202x200" />
-        </section>
-        <section className="portfolio">
           <img src="https:/source.unsplash.com/random/203x200" />
-        </section>
-        <section className="portfolio">
           <img src="https:/source.unsplash.com/random/204x200" />
-        </section>
-        <section className="portfolio">
           <img src="https:/source.unsplash.com/random/205x200" />
-        </section>
-        <section className="portfolio">
           <img src="https:/source.unsplash.com/random/206x200" />
-        </section>
-        <section className="portfolio">
           <img src="https:/source.unsplash.com/random/207x200" />
+          <img src="https:/source.unsplash.com/random/208x200" />
         </section>
-
+        
         <footer>
           <p>Sean &copy; 2018</p>
         </footer>
+      
       </div>
       </body>
     )
